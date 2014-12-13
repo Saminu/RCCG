@@ -1,0 +1,19 @@
+{
+  "name": "startbootstrap-freelancer",
+  "version": "1.0.0",
+  "homepage": "https://github.com/IronSummitMedia/startbootstrap-freelancer",
+  "authors": [
+    "Sam <s.salisu@live.co.uk>"
+  ],
+  "description": "Website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
