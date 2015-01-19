@@ -8,6 +8,7 @@
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   text-shadow: none;
+  border-bottom: 4px solid #fccb00;
 }
 #myCarousel .list-group {
   position: absolute;
@@ -22,6 +23,7 @@
   background-color: #eee;
   color: #2c3e50;
   border: none;
+  border-bottom: 4px solid #fccb00;
 }
 @media (min-width: 992px) {
   #myCarousel {
@@ -258,7 +260,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #0d83dd;
+  color: #fccb00;
   outline: none;
 }
 h1,
@@ -309,6 +311,13 @@ hr.star-primary:after {
 .navbar-default {
   background-color: #301014;
   border-color: transparent;
+  border-bottom: 1px solid #fccb00;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fccb00;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
 }
 .image-bg-fluid-height,
 .image-bg-fixed-height {
@@ -320,7 +329,8 @@ hr.star-primary:after {
 }
 .image-bg-fluid-height {
   height: 700px;
-  background: url('/img/bg-home.jpg') no-repeat top center #ffffff;
+  background: url('/img/bg-home.png') no-repeat top center #ffffff;
+  background-size: 120%;
 }
 header {
   text-align: center;
@@ -395,10 +405,6 @@ header .intro-text .skills {
 }
 .navbar .navbar-nav li a:focus {
   outline: none;
-}
-.navbar-default,
-.navbar-inverse {
-  border: none;
 }
 .navbar-brand {
   padding: 0px 15px 0px;

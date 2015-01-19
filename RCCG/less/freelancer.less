@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: @brand-success;
+	color: @brand-gold;
 	outline: none;
 }
 
@@ -76,7 +76,14 @@ hr.star-primary:after {
 .navbar-default {
   background-color: @brand-primary;
   border-color: transparent;
-//  border-bottom: 3px solid @brand-dark ;
+  border-bottom: 1px solid @brand-gold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: @brand-gold;
+  &:hover{
+    color: #ffffff;
+  }
 }
 
 .image-bg-fluid-height,
@@ -90,7 +97,8 @@ hr.star-primary:after {
 
 .image-bg-fluid-height {
   height: 700px;
-  background: url('/img/bg-home.jpg') no-repeat top center #ffffff;
+  background: url('/img/bg-home.png') no-repeat top center #ffffff;
+  background-size: 120%;
 }
 
 header {
@@ -186,7 +194,7 @@ header {
 
 .navbar-default,
 .navbar-inverse {
-	border: none;
+//	border: none;
 }
 
 .navbar-brand {
