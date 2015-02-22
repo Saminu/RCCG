@@ -86,6 +86,29 @@ hr.star-primary:after {
   }
 }
 
+// dropdown hover effect
+@media (min-width: 768px){
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  .dropdown-menu > li {
+    display: inline-block;
+    float:right;
+  }
+  .open > ul {
+    display: inline-flex !important;
+  }
+
+  .dropdown-menu{
+    min-width: 450px;
+    width: 100%;
+  }
+
+}
+
+
 .image-bg-fluid-height,
 .image-bg-fixed-height {
   text-align: center;
@@ -96,9 +119,9 @@ hr.star-primary:after {
 }
 
 .image-bg-fluid-height {
-  height: 700px;
-  background: url('/img/bg-home.png') no-repeat top center #ffffff;
-  background-size: 120%;
+  height: 750px;
+  background: url('/img/bg-home-2.png') no-repeat top center #ffffff;
+  background-size: 100%;
 }
 
 header {
@@ -106,7 +129,7 @@ header {
 //	background: @brand-success;
   //  background-image: url();
 
-  color: @brand-primary;
+  color: @brand-gold;
 	.container {
 		padding-top: 90px;
 		padding-bottom: 50px;
@@ -140,7 +163,7 @@ header {
 @media(min-width:768px) {
 	header {
 		.container {
-			padding-top: 200px;
+			padding-top: 120px;
 			padding-bottom: 40px;
 		}
 		.intro-text {
@@ -219,7 +242,7 @@ section {
 }
 
 section.success {
-	background: @secondary-color;
+	background: @brand-primary;
 	color: white;
 }
 
